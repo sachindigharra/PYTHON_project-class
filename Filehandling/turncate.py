@@ -1,0 +1,5 @@
+f = open("sachin.txt", "a")
+f.truncate(20)
+f.close()
+f = open("sachin.txt", "r")
+print(f.read())
